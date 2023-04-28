@@ -12,7 +12,7 @@
 <a href="/admin">Admin Page</a>
 
 <br/><br/>
-<form action="/j_spring_security_logout" method="post">
+<form action="/logout" method="post">
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
     <input type="submit" value="Logout" />
 </form>
