@@ -11,7 +11,6 @@ import org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoi
 import org.springframework.security.oauth2.provider.endpoint.WhitelabelApprovalEndpoint;
 import org.springframework.security.oauth2.provider.endpoint.WhitelabelErrorEndpoint;
 import org.springframework.security.oauth2.provider.token.TokenStore;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
@@ -86,19 +85,16 @@ public class OAuth2Controller {
         return whitelabelErrorEndpoint.handleError(request);
     }
 
-    @RequestMapping("/revoke_token")
-    public ModelAndView revokeToken(@RequestParam Map<String, Object> requestParam, HttpSession session) {
+    @DeleteMapping("/revoke_token")
+    public ResponseEntity revokeToken(@RequestParam Map<String, Object> requestParam) {
         String accessToken = (String) requestParam.get("access_token");
         String refreshToken = (String) requestParam.get("refresh_token");
-        if (accessToken == null || refreshToken == null) {
-            return new ModelAndView("error");
-        } else {
-            OAuth2AccessToken oAuth2AccessToken = new DefaultOAuth2AccessToken(accessToken);
-            OAuth2RefreshToken oAuth2RefreshToken = new DefaultOAuth2RefreshToken(refreshToken);
-            tokenStore.removeAccessToken(oAuth2AccessToken);
-            tokenStore.removeRefreshToken(oAuth2RefreshToken);
-            session.removeAttribute("authentication");
-            return new ModelAndView("redirect:http://localhost:8080/account");
-        }
+        OAuth2AccessToken oAuth2AccessToken = new DefaultOAuth2AccessToken(accessToken);
+        OAuth2RefreshToken oAuth2RefreshToken = new DefaultOAuth2RefreshToken(refreshToken);
+        tokenStore.removeAccessToken(oAuth2AccessToken);
+        tokenStore.removeRefreshToken(oAuth2RefreshToken);
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "success");
+        return ResponseEntity.ok(response);
     }
 }

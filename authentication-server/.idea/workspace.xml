@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e6e91ca-3e1d-4004-8dee-51bf4c59c3ee" name="Changes" comment="abc" />
+    <list default="true" id="1e6e91ca-3e1d-4004-8dee-51bf4c59c3ee" name="Changes" comment="abc">
+      <change afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/404page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/adminpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/userpage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/authentication/controller/server/oauth2/OAuth2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/authentication/controller/server/oauth2/OAuth2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/authentication/controller/server/oauth2/OAuth2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/authentication/controller/server/oauth2/OAuth2Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/OAuth2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/OAuth2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/403page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../resource-server/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gialuong/Documents/Oauth/authentication-server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gialuong/Documents/LoginOAuth2/application_oauth2/authentication-server&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -75,6 +91,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.authentication.service.impl" />
     </key>
   </component>
   <component name="RunManager">
@@ -123,6 +142,8 @@
       <workItem from="1682395255738" duration="22719000" />
       <workItem from="1682434684038" duration="577000" />
       <workItem from="1682473513908" duration="3450000" />
+      <workItem from="1682479259724" duration="27646000" />
+      <workItem from="1682656624426" duration="5203000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1682477743771</created>
