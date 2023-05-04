@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6e91ca-3e1d-4004-8dee-51bf4c59c3ee" name="Changes" comment="abc">
-      <change afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/404page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/adminpage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/userpage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/authentication/controller/server/oauth2/OAuth2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/authentication/controller/server/oauth2/OAuth2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/authentication/controller/server/oauth2/OAuth2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/authentication/controller/server/oauth2/OAuth2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/OAuth2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/OAuth2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/403page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../resource-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../resource-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +135,9 @@
       <workItem from="1682434684038" duration="577000" />
       <workItem from="1682473513908" duration="3450000" />
       <workItem from="1682479259724" duration="27646000" />
-      <workItem from="1682656624426" duration="5203000" />
+      <workItem from="1682656624426" duration="6082000" />
+      <workItem from="1682673848630" duration="682000" />
+      <workItem from="1683165523699" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1682477743771</created>

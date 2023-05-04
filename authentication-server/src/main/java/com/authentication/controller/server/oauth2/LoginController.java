@@ -51,7 +51,7 @@ public class LoginController {
             roles.add(role);
             user.setRoles(roles);
             userService.save(user);
-            return "redirect:http://localhost:8080/account";
+            return "redirect:http://localhost:8080";
         }
         return "error";
     }
@@ -78,7 +78,7 @@ public class LoginController {
 
             session.removeAttribute("target");
             session.removeAttribute("email");
-            return new ModelAndView("redirect:http://localhost:8080/account");
+            return new ModelAndView("redirect:http://localhost:8080");
         }
         return  new ModelAndView("error");
     }
