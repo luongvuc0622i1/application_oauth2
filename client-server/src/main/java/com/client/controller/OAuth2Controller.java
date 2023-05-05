@@ -17,6 +17,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.Map;
 
+import static com.client.config.CustomRequestCache.preUrl;
+
 @Controller
 public class OAuth2Controller {
     private static final String CLIENT_ID = "mobile";
@@ -38,7 +40,6 @@ public class OAuth2Controller {
         }
         AccessToken bodyAccessToken = oAuth2Service.getAccessToken(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, requestParam.get("code"), requestParam.get("state"));
         String accessToken = bodyAccessToken.getAccessToken();
-        String refreshToken = bodyAccessToken.getRefreshToken();
 
         UserPojo userPojo = userUtils.getUserInfo(accessToken);
         UserDetails userDetail = userUtils.buildUser(userPojo);
@@ -46,6 +47,7 @@ public class OAuth2Controller {
                 userDetail.getAuthorities());
         authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
         SecurityContextHolder.getContext().setAuthentication(authentication);
-        return "redirect:/user";
+        String redirectPreviousUrl = preUrl;
+        return "redirect:" + redirectPreviousUrl;
     }
 }

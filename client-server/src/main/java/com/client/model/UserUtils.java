@@ -30,7 +30,7 @@ public class UserUtils {
         boolean accountNonLocked = true;
         List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
         authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
-        UserDetails userDetail = new User(userPojo.getEmail(),
+        UserDetails userDetail = new User(userPojo.getUsername(),
                 "", enabled, accountNonExpired, credentialsNonExpired, accountNonLocked, authorities);
         return userDetail;
     }

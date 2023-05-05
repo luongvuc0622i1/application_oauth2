@@ -1,5 +1,6 @@
 package com.client.controller;
 
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +15,15 @@ public class ClientController {
 
     @RequestMapping(value = { "/", "/login" })
     public ModelAndView login() {
-        return new ModelAndView("login");
+        return new ModelAndView("redirect:http://localhost:8081/oauth/authorize?client_id=mobile&response_type=code&redirect_uri=http://localhost:8080/oauth/callback&scope=WRITE");
+    }
+
+    @RequestMapping("/home")
+    public ModelAndView home() {
+        Object object = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        ModelAndView modelAndView = new ModelAndView("home");
+        modelAndView.addObject("object", object);
+        return modelAndView;
     }
 
     @RequestMapping("/user")
