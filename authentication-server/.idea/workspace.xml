@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6e91ca-3e1d-4004-8dee-51bf4c59c3ee" name="Changes" comment="abc">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/OAuth2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/controller/OAuth2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/java/com/client/model/UserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../client-server/src/main/webapp/WEB-INF/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resource-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../resource-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/authentication-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/authentication/controller/server/oauth2/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/authentication/controller/server/oauth2/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/authentication/DemoOauth2ApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,48 +34,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2OaGGMECahwq1bnMFZVDmq31poe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gialuong/Documents/LoginOAuth2/application_oauth2/authentication-server&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f8391780cacfc0c4cc7a04459a1b7ab7&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resource-server" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -91,13 +68,13 @@
   <component name="RunManager">
     <configuration name="AuthenticationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="authentication-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.authentication.AuthenticationServerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.authentication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.authentication.AuthenticationServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +115,7 @@
       <workItem from="1682656624426" duration="6082000" />
       <workItem from="1682673848630" duration="682000" />
       <workItem from="1683165523699" duration="742000" />
+      <workItem from="1683876949159" duration="2637000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1682477743771</created>
@@ -162,6 +140,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="abc" />
